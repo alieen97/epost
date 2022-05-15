@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../images/epost_main_bg_2.jpg) no-repeat top center;
+}
+
+ul,li { 
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    opacity: .7;
+    background-color: #609886;
+}
+
+.topNaviOuter {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+s}
+
+.topNavi {
+    width: 1200px;
+}
+
+.naviLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.appInstall {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconInstall {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width: 100%;
+    height: 1116px;
+    opacity: .7;
+    background-color: #989160;
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+    opacity: .7;
+    background-color: #8e6098;
+}
